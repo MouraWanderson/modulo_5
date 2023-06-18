@@ -9,6 +9,12 @@ section h2,
 section h3 {
     font-family: 'Bungee', cursive;
     font-weight: normal;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-color: #00020857;
+    padding: 10px;
 }
 
 body, 
@@ -19,7 +25,7 @@ textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: #000208a0;
     color: #ecf0f1;
 }
 
@@ -43,6 +49,7 @@ header nav li a {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    background-color: #00020800;
 }
 
 header .container,
@@ -53,7 +60,7 @@ section .container {
 }
 
 .brands-list img {
-    height: 24px;
+    height: 48px;
 }
 
 .brands-list li { 
@@ -71,7 +78,7 @@ section {
 
 section h2 {
     margin-bottom: 16px;
-    color: #182c61; 
+    color:#000208; 
 }
 
 section p { 
@@ -79,10 +86,16 @@ section p {
 }
 
 section {
-    color: #182c61;
+    color: #000208;
 }
 
-.store-front { 
+.store-front-1, 
+.store-front-2,
+.store-front-3 { 
+    height: 360px;
+}
+
+.store-front-3 { 
     margin-right: 32px;
 }
 
@@ -127,22 +140,22 @@ section h3 {
 }
 
 form button { 
-    background-color: #182c61;
+    background-color:#000208;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover { 
-    background-color: #3149e9;
+    background-color:#00020853;
 }
 
 input:focus, textarea:focus { 
-    outline-color: #182c61;
+    outline-color:#00020853;
 }
 
 footer { 
-    background-color: #182c61;
+    background-color:#00020853;
     color: #ecf0f1;
     padding: 16px 0;
 }
